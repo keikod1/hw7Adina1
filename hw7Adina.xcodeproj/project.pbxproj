@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4641469E21363ED8FB0CF55A /* Pods_hw7Adina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8782EDD895400FE744514C40 /* Pods_hw7Adina.framework */; };
 		E4650AF827A2900000AF4600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4650AF727A2900000AF4600 /* AppDelegate.swift */; };
 		E4650AFA27A2900000AF4600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4650AF927A2900000AF4600 /* SceneDelegate.swift */; };
 		E4650AFC27A2900000AF4600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4650AFB27A2900000AF4600 /* ViewController.swift */; };
 		E4650AFF27A2900000AF4600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4650AFD27A2900000AF4600 /* Main.storyboard */; };
 		E4650B0127A2900100AF4600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4650B0027A2900100AF4600 /* Assets.xcassets */; };
 		E4650B0427A2900100AF4600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4650B0227A2900100AF4600 /* LaunchScreen.storyboard */; };
+		E485A34527A97BB8006820D5 /* 2flagsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485A34427A97BB8006820D5 /* 2flagsVC.swift */; };
+		E485A34727A984B3006820D5 /* 3flagsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485A34627A984B3006820D5 /* 3flagsVC.swift */; };
+		E485A34927AAA6E8006820D5 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485A34827AAA6E8006820D5 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14D4E6BF5DBC5D7A118C6583 /* Pods-hw7Adina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw7Adina.debug.xcconfig"; path = "Target Support Files/Pods-hw7Adina/Pods-hw7Adina.debug.xcconfig"; sourceTree = "<group>"; };
+		65BEE71F86D7E25356039C9D /* Pods-hw7Adina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw7Adina.release.xcconfig"; path = "Target Support Files/Pods-hw7Adina/Pods-hw7Adina.release.xcconfig"; sourceTree = "<group>"; };
+		8782EDD895400FE744514C40 /* Pods_hw7Adina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hw7Adina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4650AF427A2900000AF4600 /* hw7Adina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw7Adina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4650AF727A2900000AF4600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4650AF927A2900000AF4600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		E4650B0027A2900100AF4600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4650B0327A2900100AF4600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4650B0527A2900100AF4600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E485A34427A97BB8006820D5 /* 2flagsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2flagsVC.swift; sourceTree = "<group>"; };
+		E485A34627A984B3006820D5 /* 3flagsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3flagsVC.swift; sourceTree = "<group>"; };
+		E485A34827AAA6E8006820D5 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4641469E21363ED8FB0CF55A /* Pods_hw7Adina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32F4FC7858D292FCC12BE87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8782EDD895400FE744514C40 /* Pods_hw7Adina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B7D2AF75FD094851D9890F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14D4E6BF5DBC5D7A118C6583 /* Pods-hw7Adina.debug.xcconfig */,
+				65BEE71F86D7E25356039C9D /* Pods-hw7Adina.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4650AEB27A2900000AF4600 = {
 			isa = PBXGroup;
 			children = (
 				E4650AF627A2900000AF4600 /* hw7Adina */,
 				E4650AF527A2900000AF4600 /* Products */,
+				92B7D2AF75FD094851D9890F /* Pods */,
+				32F4FC7858D292FCC12BE87F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +93,9 @@
 				E4650B0027A2900100AF4600 /* Assets.xcassets */,
 				E4650B0227A2900100AF4600 /* LaunchScreen.storyboard */,
 				E4650B0527A2900100AF4600 /* Info.plist */,
+				E485A34427A97BB8006820D5 /* 2flagsVC.swift */,
+				E485A34627A984B3006820D5 /* 3flagsVC.swift */,
+				E485A34827AAA6E8006820D5 /* SignUpVC.swift */,
 			);
 			path = hw7Adina;
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4650B0827A2900100AF4600 /* Build configuration list for PBXNativeTarget "hw7Adina" */;
 			buildPhases = (
+				2596CEE2D5CB05C5F3FD5065 /* [CP] Check Pods Manifest.lock */,
 				E4650AF027A2900000AF4600 /* Sources */,
 				E4650AF127A2900000AF4600 /* Frameworks */,
 				E4650AF227A2900000AF4600 /* Resources */,
+				5C2F2464CBBF1DD8187AB840 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2596CEE2D5CB05C5F3FD5065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hw7Adina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2F2464CBBF1DD8187AB840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hw7Adina/Pods-hw7Adina-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hw7Adina/Pods-hw7Adina-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hw7Adina/Pods-hw7Adina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4650AF027A2900000AF4600 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E4650AFC27A2900000AF4600 /* ViewController.swift in Sources */,
+				E485A34727A984B3006820D5 /* 3flagsVC.swift in Sources */,
+				E485A34527A97BB8006820D5 /* 2flagsVC.swift in Sources */,
 				E4650AF827A2900000AF4600 /* AppDelegate.swift in Sources */,
+				E485A34927AAA6E8006820D5 /* SignUpVC.swift in Sources */,
 				E4650AFA27A2900000AF4600 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +364,7 @@
 		};
 		E4650B0927A2900100AF4600 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D4E6BF5DBC5D7A118C6583 /* Pods-hw7Adina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +393,7 @@
 		};
 		E4650B0A27A2900100AF4600 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BEE71F86D7E25356039C9D /* Pods-hw7Adina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
